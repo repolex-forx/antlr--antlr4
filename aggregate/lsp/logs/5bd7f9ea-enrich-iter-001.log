@@ -1,0 +1,29 @@
+[2026-04-14T00:31:04Z] === ENRICH ITERATION 1 START | repo=antlr/antlr4 sha=5bd7f9ea ===
+[2026-04-14T00:31:04Z] [iter=1] PHASE START: enrich repo=antlr/antlr4 sha=5bd7f9ea runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/5bd7f9ea-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/5bd7f9ea4822b231a93f8b34e8c91a2387a0e208.nq.gz
+[2026-04-14T00:31:04Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-14T00:32:16Z] [iter=1] AST store loaded triples=7787748 load_secs=69 mem_mb=1057 MB
+[2026-04-14T00:32:16Z] [iter=1] Step 2: Finding LSP targets mem_mb=1057 MB
+[2026-04-14T00:32:42Z] [iter=1] LSP targets found call_sites=47446 imports=5854 extends=992 implements=0 secs=27
+[2026-04-14T00:33:07Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1057 MB
+[2026-04-14T00:33:52Z] [iter=1] Position index built positions=526839 nodes_with_types=637997 secs=45 mem_mb=1474 MB
+[2026-04-14T00:33:52Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1474 MB already_completed_types=[] already_completed_files=0
+[2026-04-14T00:33:52Z] [iter=1] Resolving target type target_type=call_site count=47446
+[2026-04-14T00:33:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.8 files_done=0 resolved=0 errors=0 current=runtime/Python3/src/antlr4/dfa/DFA.py
+[2026-04-14T00:34:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.4 files_done=1 resolved=9 errors=11 current=runtime/Python3/src/antlr4/_pygrun.py
+[2026-04-14T00:35:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.7 files_done=2 resolved=55 errors=36 current=runtime/Python3/tests/parser/cparser.py
+[2026-04-14T03:01:04Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=150.0 files_done=3 resolved=482 errors=2860 current=runtime/Python3/tests/TestTokenStreamRewriter.py
+[2026-04-14T03:14:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=163.2 files_done=4 resolved=488 errors=3115 current=scripts/github_release_notes.py
+[2026-04-14T03:15:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=164.3 files_done=6 resolved=508 errors=3137 current=runtime/Python2/src/antlr4/atn/ParserATNSimulator.py
+[2026-04-14T03:26:17Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=175.2 files_done=7 resolved=645 errors=3348 current=runtime/Python2/tests/TestTokenStreamRewriter.py
+[2026-04-14T03:39:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=188.4 files_done=8 resolved=646 errors=3603 current=runtime/Python3/src/antlr4/RuleContext.py
+[2026-04-14T03:40:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=189.2 files_done=9 resolved=653 errors=3620 current=runtime/Python2/src/antlr4/xpath/XPath.py
+[2026-04-14T03:42:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=191.0 files_done=10 resolved=690 errors=3655 current=runtime/Python3/src/antlr4/atn/ATNState.py
+[2026-04-14T03:45:19Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=194.2 files_done=12 resolved=777 errors=3717 current=runtime/Python2/src/antlr4/atn/ATNDeserializer.py
+[2026-04-14T03:52:14Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=201.2 files_done=13 resolved=849 errors=3851 current=runtime/Python3/src/antlr4/atn/SemanticContext.py
+[2026-04-14T03:53:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=202.8 files_done=14 resolved=883 errors=3883 current=runtime/Python3/src/antlr4/atn/ATNDeserializer.py
+[2026-04-14T04:00:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=209.6 files_done=15 resolved=956 errors=4015 current=runtime/Python3/src/antlr4/error/DiagnosticErrorListener.py
+[2026-04-14T04:02:28Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=211.4 files_done=16 resolved=966 errors=4049 current=runtime/Python3/tests/parser/clexer.py
+[2026-04-14T04:31:15Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=16 new_files_this_iter=16 mem_mb=1511 MB
+[2026-04-14T04:31:15Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/5bd7f9ea4822b231a93f8b34e8c91a2387a0e208.nq.gz triples=43579
+[2026-04-14T04:31:16Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-14T04:31:16Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14411 elapsed_min=240.2 files_completed=16
