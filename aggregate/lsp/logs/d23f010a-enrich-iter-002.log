@@ -1,0 +1,97 @@
+[2026-04-15T08:33:38Z] === ENRICH ITERATION 2 START | repo=antlr/antlr4 sha=d23f010a ===
+[2026-04-15T08:33:38Z] [iter=2] PHASE START: enrich repo=antlr/antlr4 sha=d23f010a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d23f010a-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d23f010a3642a650076caea5a03b586cba37d7a0.nq.gz
+[2026-04-15T08:33:38Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-15T08:34:58Z] [iter=2] AST store loaded triples=7787626 load_secs=76 mem_mb=1023 MB
+[2026-04-15T08:34:58Z] [iter=2] Step 2: Finding LSP targets mem_mb=1023 MB
+[2026-04-15T08:35:23Z] [iter=2] LSP targets found call_sites=47444 imports=5854 extends=992 implements=0 secs=25
+[2026-04-15T08:35:24Z] [iter=2] Loaded checkpoint partial graph triples=43973
+[2026-04-15T08:35:47Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1023 MB
+[2026-04-15T08:36:37Z] [iter=2] Position index built positions=526833 nodes_with_types=637989 secs=49 mem_mb=1471 MB
+[2026-04-15T08:36:37Z] [iter=2] Step 3: Starting LSP resolution mem_mb=1471 MB already_completed_types=[] already_completed_files=16
+[2026-04-15T08:36:37Z] [iter=2] Resolving target type target_type=call_site count=47444
+[2026-04-15T08:36:38Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=0 resolved=0 errors=0 current=runtime/Python3/tests/parser/clexer.py
+[2026-04-15T09:06:46Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=33.1 files_done=1 resolved=4 errors=589 current=runtime/Python3/src/antlr4/tree/ParseTreePatternMatcher.py
+[2026-04-15T09:10:23Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=36.7 files_done=2 resolved=60 errors=660 current=runtime/Python3/src/antlr4/TokenStreamRewriter.py
+[2026-04-15T09:12:37Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=39.0 files_done=3 resolved=110 errors=704 current=runtime/Python2/tests/TestTokenStreamRewriter.py
+[2026-04-15T09:25:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=52.0 files_done=4 resolved=111 errors=959 current=runtime/Python2/src/antlr4/Utils.py
+[2026-04-15T09:26:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=52.6 files_done=5 resolved=113 errors=972 current=runtime/Python3/src/antlr4/tree/Trees.py
+[2026-04-15T09:28:05Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=54.4 files_done=6 resolved=127 errors=1008 current=runtime/Python2/src/antlr4/Recognizer.py
+[2026-04-15T09:29:10Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=55.5 files_done=7 resolved=137 errors=1029 current=runtime/Python2/src/antlr4/Parser.py
+[2026-04-15T09:33:39Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=60.0 files_done=8 resolved=163 errors=1117 current=runtime/Python2/src/antlr4/BufferedTokenStream.py
+[2026-04-15T09:35:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=61.9 files_done=9 resolved=193 errors=1154 current=runtime/Python3/src/antlr4/IntervalSet.py
+[2026-04-15T09:36:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=63.1 files_done=10 resolved=218 errors=1177 current=runtime/Python3/src/antlr4/atn/Transition.py
+[2026-04-15T09:37:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=63.6 files_done=11 resolved=256 errors=1187 current=runtime/Python2/src/antlr4/atn/PredictionMode.py
+[2026-04-15T09:38:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=64.6 files_done=12 resolved=278 errors=1206 current=runtime/Python2/src/antlr4/LL1Analyzer.py
+[2026-04-15T09:39:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=66.1 files_done=13 resolved=293 errors=1235 current=runtime/Python3/src/antlr4/ParserInterpreter.py
+[2026-04-15T09:41:37Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=68.0 files_done=14 resolved=304 errors=1273 current=runtime/Python3/src/antlr4/atn/PredictionMode.py
+[2026-04-15T09:42:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=68.9 files_done=15 resolved=331 errors=1291 current=runtime/Python2/src/antlr4/atn/LexerATNSimulator.py
+[2026-04-15T09:46:30Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=72.9 files_done=16 resolved=372 errors=1369 current=runtime/Python3/src/antlr4/atn/LexerATNSimulator.py
+[2026-04-15T09:50:29Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=76.8 files_done=17 resolved=413 errors=1447 current=runtime/Python3/src/antlr4/xpath/XPath.py
+[2026-04-15T09:52:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=78.6 files_done=18 resolved=450 errors=1482 current=runtime/Python3/src/antlr4/atn/ATNState.py
+[2026-04-15T09:53:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=79.7 files_done=21 resolved=493 errors=1503 current=runtime/Python3/src/antlr4/Parser.py
+[2026-04-15T09:57:51Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=84.2 files_done=22 resolved=520 errors=1592 current=runtime/Python2/src/antlr4/ParserRuleContext.py
+[2026-04-15T09:58:39Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=85.0 files_done=23 resolved=532 errors=1608 current=runtime/Python3/src/antlr4/ListTokenSource.py
+[2026-04-15T10:06:00Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=92.4 files_done=25 resolved=620 errors=1751 current=runtime/Python3/src/antlr4/atn/ATNConfig.py
+[2026-04-15T10:06:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=93.1 files_done=26 resolved=639 errors=1765 current=runtime/Python3/src/antlr4/atn/SemanticContext.py
+[2026-04-15T10:08:21Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=94.7 files_done=27 resolved=673 errors=1797 current=runtime/Python3/src/antlr4/dfa/DFAState.py
+[2026-04-15T10:09:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=95.6 files_done=29 resolved=718 errors=1815 current=runtime/Python3/src/antlr4/atn/ATNConfigSet.py
+[2026-04-15T10:10:49Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=97.2 files_done=30 resolved=736 errors=1845 current=runtime/Python2/src/antlr4/xpath/XPath.py
+[2026-04-15T10:12:37Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=99.0 files_done=31 resolved=773 errors=1880 current=runtime/Python2/src/antlr4/tree/ParseTreeMatch.py
+[2026-04-15T10:16:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=102.6 files_done=33 resolved=806 errors=1950 current=runtime/Python2/tests/mocks/TestLexer.py
+[2026-04-15T10:17:40Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=104.0 files_done=34 resolved=814 errors=1977 current=runtime/Python3/src/antlr4/InputStream.py
+[2026-04-15T10:18:55Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=105.3 files_done=36 resolved=829 errors=2001 current=runtime/Python3/src/antlr4/tree/ParseTreeMatch.py
+[2026-04-15T10:21:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=107.5 files_done=38 resolved=844 errors=2045 current=runtime/Python2/src/antlr4/atn/LexerAction.py
+[2026-04-15T10:21:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=108.1 files_done=39 resolved=876 errors=2055 current=runtime/Python2/src/antlr4/tree/Trees.py
+[2026-04-15T10:23:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=109.9 files_done=40 resolved=888 errors=2091 current=runtime/Python2/src/antlr4/atn/ATNConfig.py
+[2026-04-15T10:24:15Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=110.6 files_done=41 resolved=902 errors=2105 current=runtime/Python2/src/antlr4/TokenStreamRewriter.py
+[2026-04-15T10:26:31Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=112.9 files_done=42 resolved=951 errors=2149 current=runtime/Python3/src/antlr4/PredictionContext.py
+[2026-04-15T10:29:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=116.0 files_done=43 resolved=1012 errors=2209 current=runtime/Python3/src/antlr4/Utils.py
+[2026-04-15T10:30:10Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=116.5 files_done=44 resolved=1015 errors=2220 current=runtime/Python2/src/antlr4/ParserInterpreter.py
+[2026-04-15T10:32:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=118.5 files_done=45 resolved=1026 errors=2258 current=runtime/Python3/src/antlr4/LL1Analyzer.py
+[2026-04-15T10:33:31Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=119.9 files_done=46 resolved=1042 errors=2286 current=runtime/Python2/src/antlr4/tree/Tree.py
+[2026-04-15T10:34:46Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=121.1 files_done=47 resolved=1047 errors=2310 current=runtime/Python3/src/antlr4/ParserRuleContext.py
+[2026-04-15T10:35:35Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=121.9 files_done=48 resolved=1059 errors=2326 current=runtime/Python2/src/antlr4/atn/ATN.py
+[2026-04-15T10:36:21Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=122.7 files_done=49 resolved=1065 errors=2341 current=runtime/Python3/src/antlr4/error/Errors.py
+[2026-04-15T10:36:52Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=123.2 files_done=50 resolved=1082 errors=2351 current=runtime/Python2/src/antlr4/Lexer.py
+[2026-04-15T10:38:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=125.1 files_done=51 resolved=1092 errors=2387 current=runtime/Python2/src/antlr4/atn/ATNState.py
+[2026-04-15T10:39:35Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=125.9 files_done=53 resolved=1128 errors=2404 current=runtime/Python2/src/antlr4/CodePoints.py
+[2026-04-15T10:40:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=126.9 files_done=56 resolved=1138 errors=2423 current=runtime/Python3/tests/TestRecognizer.py
+[2026-04-15T10:41:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=127.6 files_done=58 resolved=1147 errors=2437 current=runtime/Python2/src/antlr4/atn/Transition.py
+[2026-04-15T10:41:53Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=128.2 files_done=59 resolved=1179 errors=2449 current=runtime/Python2/src/antlr4/atn/SemanticContext.py
+[2026-04-15T10:43:30Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=129.9 files_done=60 resolved=1210 errors=2481 current=runtime/Python2/src/antlr4/error/ErrorStrategy.py
+[2026-04-15T10:48:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=134.4 files_done=61 resolved=1219 errors=2570 current=runtime/Python3/src/antlr4/dfa/DFA.py
+[2026-04-15T10:48:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=135.0 files_done=62 resolved=1228 errors=2581 current=runtime/Python2/src/antlr4/ListTokenSource.py
+[2026-04-15T10:49:28Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=135.8 files_done=64 resolved=1248 errors=2598 current=runtime/Python3/src/antlr4/Token.py
+[2026-04-15T10:50:44Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=137.1 files_done=65 resolved=1258 errors=2623 current=runtime/Python2/src/antlr4/tree/RuleTagToken.py
+[2026-04-15T10:52:00Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=138.4 files_done=67 resolved=1278 errors=2648 current=runtime/Python3/src/antlr4/BufferedTokenStream.py
+[2026-04-15T10:53:53Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=140.2 files_done=68 resolved=1309 errors=2685 current=scripts/github_release_notes.py
+[2026-04-15T10:55:00Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=141.4 files_done=70 resolved=1331 errors=2707 current=runtime/Python2/src/antlr4/InputStream.py
+[2026-04-15T10:55:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=142.3 files_done=71 resolved=1337 errors=2726 current=runtime/Python3/src/antlr4/error/ErrorListener.py
+[2026-04-15T10:56:47Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=143.2 files_done=73 resolved=1360 errors=2742 current=runtime/Python3/src/antlr4/CommonTokenStream.py
+[2026-04-15T10:57:40Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=144.0 files_done=75 resolved=1370 errors=2759 current=runtime/Python2/src/antlr4/atn/LexerActionExecutor.py
+[2026-04-15T10:58:27Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=144.8 files_done=77 resolved=1383 errors=2774 current=runtime/Python2/tests/run.py
+[2026-04-15T10:58:59Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=145.3 files_done=80 resolved=1396 errors=2784 current=scripts/deploy_to_website.py
+[2026-04-15T10:59:51Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=146.2 files_done=81 resolved=1425 errors=2801 current=runtime/Python3/tests/expr/ExprLexer.py
+[2026-04-15T11:00:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=147.0 files_done=84 resolved=1440 errors=2816 current=runtime/Python3/src/antlr4/error/DiagnosticErrorListener.py
+[2026-04-15T11:02:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=148.7 files_done=85 resolved=1450 errors=2850 current=runtime/Python2/src/antlr4/CommonTokenFactory.py
+[2026-04-15T11:02:51Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=149.2 files_done=87 resolved=1455 errors=2860 current=runtime/Python3/tests/mocks/TestLexer.py
+[2026-04-15T11:04:14Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=150.6 files_done=88 resolved=1463 errors=2887 current=runtime/Python3/tests/TestInputStream.py
+[2026-04-15T11:04:54Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=151.3 files_done=89 resolved=1464 errors=2900 current=runtime/Python2/src/antlr4/RuleContext.py
+[2026-04-15T11:05:46Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=152.1 files_done=90 resolved=1469 errors=2917 current=runtime/Python3/src/antlr4/FileStream.py
+[2026-04-15T11:06:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=152.7 files_done=94 resolved=1484 errors=2928 current=runtime/Python3/tests/ctest.py
+[2026-04-15T11:07:01Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=153.4 files_done=96 resolved=1491 errors=2941 current=runtime/Python3/src/antlr4/tree/TokenTagToken.py
+[2026-04-15T11:07:31Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=153.9 files_done=104 resolved=1514 errors=2951 current=runtime/Python3/src/antlr4/tree/ParseTreePattern.py
+[2026-04-15T11:09:39Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=156.0 files_done=109 resolved=1547 errors=2992 current=runtime/Go/antlr/parser_atn_simulator.go
+[2026-04-15T11:35:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=182.0 files_done=110 resolved=1574 errors=3501 current=runtime/Go/antlr/v4/prediction_context.go
+[2026-04-15T11:41:33Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=187.9 files_done=111 resolved=1605 errors=3616 current=runtime/Go/antlr/v4/lexer_atn_simulator.go
+[2026-04-15T11:50:12Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=196.6 files_done=112 resolved=1615 errors=3785 current=runtime/Go/antlr/parser.go
+[2026-04-15T11:56:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=202.8 files_done=113 resolved=1635 errors=3905 current=runtime/Go/antlr/v4/prediction_mode.go
+[2026-04-15T11:58:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=205.1 files_done=114 resolved=1640 errors=3949 current=runtime/Go/antlr/v4/tokenstream_rewriter.go
+[2026-04-15T12:03:55Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=210.3 files_done=115 resolved=1660 errors=4051 current=runtime/Go/antlr/error_strategy.go
+[2026-04-15T12:11:17Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=217.6 files_done=116 resolved=1666 errors=4196 current=runtime/Go/antlr/v4/recognizer.go
+[2026-04-15T12:12:03Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=218.4 files_done=117 resolved=1674 errors=4211 current=runtime/Go/antlr/v4/parser.go
+[2026-04-15T12:18:09Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=224.5 files_done=118 resolved=1694 errors=4331 current=runtime/Go/antlr/v4/parser_atn_simulator.go
+[2026-04-15T12:33:56Z] [iter=2] CHECKPOINT TRIGGERED elapsed_min=240.3 files_completed=134 new_files_this_iter=118 mem_mb=1499 MB
+[2026-04-15T12:33:56Z] [iter=2] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/d23f010a3642a650076caea5a03b586cba37d7a0.nq.gz triples=77399
+[2026-04-15T12:33:58Z] [iter=2] Checkpoint written, exiting with code 7
+[2026-04-15T12:33:58Z] [iter=2] PHASE END: enrich (checkpointed) elapsed_s=14417 elapsed_min=240.3 files_completed=134
