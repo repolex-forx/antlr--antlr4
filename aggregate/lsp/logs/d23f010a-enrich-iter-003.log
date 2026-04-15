@@ -1,0 +1,90 @@
+[2026-04-15T12:39:37Z] === ENRICH ITERATION 3 START | repo=antlr/antlr4 sha=d23f010a ===
+[2026-04-15T12:39:37Z] [iter=3] PHASE START: enrich repo=antlr/antlr4 sha=d23f010a runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d23f010a-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d23f010a3642a650076caea5a03b586cba37d7a0.nq.gz
+[2026-04-15T12:39:37Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-15T12:40:55Z] [iter=3] AST store loaded triples=7787626 load_secs=75 mem_mb=1067 MB
+[2026-04-15T12:40:55Z] [iter=3] Step 2: Finding LSP targets mem_mb=1067 MB
+[2026-04-15T12:41:21Z] [iter=3] LSP targets found call_sites=47444 imports=5854 extends=992 implements=0 secs=26
+[2026-04-15T12:41:24Z] [iter=3] Loaded checkpoint partial graph triples=77399
+[2026-04-15T12:41:48Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1067 MB
+[2026-04-15T12:42:40Z] [iter=3] Position index built positions=526833 nodes_with_types=637989 secs=52 mem_mb=1685 MB
+[2026-04-15T12:42:40Z] [iter=3] Step 3: Starting LSP resolution mem_mb=1685 MB already_completed_types=[] already_completed_files=134
+[2026-04-15T12:42:40Z] [iter=3] Resolving target type target_type=call_site count=47444
+[2026-04-15T12:42:42Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=3.1 files_done=0 resolved=0 errors=0 current=runtime/Go/antlr/v4/parser_atn_simulator.go
+[2026-04-15T13:09:11Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=29.6 files_done=1 resolved=7 errors=509 current=runtime/Go/antlr/prediction_mode.go
+[2026-04-15T13:11:28Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=31.9 files_done=2 resolved=12 errors=553 current=runtime/Go/antlr/ll1_analyzer.go
+[2026-04-15T13:14:41Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=35.1 files_done=3 resolved=16 errors=615 current=runtime/Go/antlr/v4/interval_set.go
+[2026-04-15T13:17:17Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=37.7 files_done=4 resolved=58 errors=665 current=runtime/Go/antlr/errors.go
+[2026-04-15T13:18:32Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=38.9 files_done=5 resolved=64 errors=689 current=runtime/Go/antlr/v4/atn_deserializer.go
+[2026-04-15T13:28:06Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=48.5 files_done=6 resolved=105 errors=871 current=runtime/Go/antlr/v4/dfa.go
+[2026-04-15T13:29:33Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=49.9 files_done=7 resolved=111 errors=899 current=runtime/Go/antlr/tokenstream_rewriter.go
+[2026-04-15T13:34:51Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=55.2 files_done=8 resolved=131 errors=1001 current=runtime/Go/antlr/v4/lexer.go
+[2026-04-15T13:37:21Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=57.7 files_done=9 resolved=142 errors=1049 current=runtime/Go/antlr/utils.go
+[2026-04-15T13:39:06Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=59.5 files_done=10 resolved=175 errors=1083 current=runtime/Go/antlr/lexer_atn_simulator.go
+[2026-04-15T13:47:53Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=68.3 files_done=11 resolved=185 errors=1252 current=runtime/Go/antlr/v4/testing_assert_test.go
+[2026-04-15T13:48:46Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=69.2 files_done=12 resolved=186 errors=1269 current=runtime/Go/antlr/common_token_stream_test.go
+[2026-04-15T13:56:42Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=77.1 files_done=13 resolved=188 errors=1422 current=runtime/Go/antlr/common_token_stream.go
+[2026-04-15T13:59:55Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=80.3 files_done=14 resolved=217 errors=1484 current=runtime/Go/antlr/atn_state.go
+[2026-04-15T14:00:51Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=81.2 files_done=15 resolved=221 errors=1502 current=runtime/Go/antlr/prediction_context.go
+[2026-04-15T14:07:11Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=87.6 files_done=16 resolved=252 errors=1620 current=runtime/Go/antlr/atn_deserializer.go
+[2026-04-15T14:16:47Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=97.2 files_done=17 resolved=293 errors=1802 current=runtime/Go/antlr/v4/tokenstream_rewriter_test.go
+[2026-04-15T14:25:23Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=105.8 files_done=18 resolved=298 errors=1967 current=runtime/Go/antlr/v4/atn_deserialization_options.go
+[2026-04-15T14:29:02Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=109.4 files_done=21 resolved=310 errors=2037 current=runtime/Go/antlr/v4/utils.go
+[2026-04-15T14:30:47Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=111.2 files_done=22 resolved=343 errors=2071 current=runtime/Go/antlr/trees.go
+[2026-04-15T14:32:45Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=113.1 files_done=23 resolved=351 errors=2109 current=runtime/Go/antlr/v4/common_token_stream.go
+[2026-04-15T14:35:58Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=116.4 files_done=24 resolved=380 errors=2171 current=runtime/Go/antlr/v4/lexer_action.go
+[2026-04-15T14:38:44Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=119.1 files_done=25 resolved=391 errors=2224 current=runtime/Go/antlr/v4/dfa_state.go
+[2026-04-15T14:39:27Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=119.8 files_done=26 resolved=394 errors=2238 current=runtime/Go/antlr/atn_config_set.go
+[2026-04-15T14:42:04Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=122.5 files_done=27 resolved=412 errors=2288 current=runtime/Go/antlr/v4/atn_config.go
+[2026-04-15T14:45:11Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=125.6 files_done=28 resolved=414 errors=2348 current=runtime/Go/antlr/v4/common_token_stream_test.go
+[2026-04-15T14:53:09Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=133.5 files_done=29 resolved=416 errors=2501 current=runtime/Go/antlr/utils_set.go
+[2026-04-15T14:54:11Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=134.6 files_done=30 resolved=435 errors=2521 current=runtime/Go/antlr/v4/errors.go
+[2026-04-15T14:55:26Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=135.8 files_done=31 resolved=441 errors=2545 current=runtime/Go/antlr/testing_util_test.go
+[2026-04-15T15:03:07Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=143.5 files_done=33 resolved=451 errors=2692 current=runtime/Go/antlr/common_token_factory.go
+[2026-04-15T15:04:51Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=145.2 files_done=35 resolved=455 errors=2725 current=runtime/Go/antlr/utils_test.go
+[2026-04-15T15:06:50Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=147.2 files_done=36 resolved=456 errors=2763 current=runtime/Go/antlr/tokenstream_rewriter_test.go
+[2026-04-15T15:15:26Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=155.8 files_done=37 resolved=461 errors=2928 current=runtime/Go/antlr/v4/utils_set.go
+[2026-04-15T15:16:28Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=156.9 files_done=38 resolved=480 errors=2948 current=runtime/Go/antlr/semantic_context.go
+[2026-04-15T15:18:59Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=159.4 files_done=39 resolved=511 errors=2996 current=runtime/Go/antlr/v4/token.go
+[2026-04-15T15:20:11Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=160.6 files_done=40 resolved=513 errors=3018 current=runtime/Go/antlr/v4/semantic_context.go
+[2026-04-15T15:22:42Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=163.1 files_done=41 resolved=544 errors=3066 current=runtime/Go/antlr/v4/atnconfigset_test.go
+[2026-04-15T15:27:18Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=167.7 files_done=42 resolved=545 errors=3154 current=runtime/Go/antlr/v4/lexer_action_executor.go
+[2026-04-15T15:28:08Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=168.5 files_done=43 resolved=554 errors=3170 current=runtime/Go/antlr/v4/utils_test.go
+[2026-04-15T15:30:07Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=170.5 files_done=44 resolved=555 errors=3208 current=runtime/Go/antlr/recognizer.go
+[2026-04-15T15:30:55Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=171.3 files_done=45 resolved=563 errors=3223 current=runtime/Go/antlr/trace_listener.go
+[2026-04-15T15:31:42Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=172.1 files_done=46 resolved=564 errors=3238 current=runtime/Go/antlr/v4/atn_config_set.go
+[2026-04-15T15:34:18Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=174.7 files_done=47 resolved=582 errors=3288 current=runtime/Go/antlr/v4/trace_listener.go
+[2026-04-15T15:35:05Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=175.5 files_done=48 resolved=583 errors=3303 current=runtime/Go/antlr/atn.go
+[2026-04-15T15:36:38Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=177.0 files_done=49 resolved=591 errors=3332 current=runtime/Go/antlr/lexer.go
+[2026-04-15T15:39:11Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=179.6 files_done=50 resolved=602 errors=3380 current=runtime/Go/antlr/comparators.go
+[2026-04-15T15:41:21Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=181.7 files_done=51 resolved=602 errors=3421 current=runtime/Go/antlr/transition.go
+[2026-04-15T15:43:19Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=183.7 files_done=52 resolved=618 errors=3458 current=runtime/Go/antlr/rule_context.go
+[2026-04-15T15:44:49Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=185.2 files_done=54 resolved=625 errors=3486 current=runtime/Go/antlr/v4/tree.go
+[2026-04-15T15:46:09Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=186.5 files_done=55 resolved=629 errors=3511 current=runtime/Go/antlr/atnconfigset_test.go
+[2026-04-15T15:50:51Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=191.2 files_done=56 resolved=630 errors=3599 current=runtime/Go/antlr/jcollect.go
+[2026-04-15T15:51:33Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=191.9 files_done=57 resolved=647 errors=3612 current=runtime/Go/antlr/v4/transition.go
+[2026-04-15T15:53:31Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=193.9 files_done=58 resolved=663 errors=3649 current=runtime/Go/antlr/v4/testing_lexer_b_test.go
+[2026-04-15T15:55:58Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=196.4 files_done=60 resolved=674 errors=3695 current=runtime/Go/antlr/v4/error_listener.go
+[2026-04-15T15:57:27Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=197.8 files_done=62 resolved=688 errors=3723 current=runtime/Go/antlr/v4/atn_state.go
+[2026-04-15T15:58:23Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=198.8 files_done=63 resolved=692 errors=3741 current=runtime/Go/antlr/diagnostic_error_listener.go
+[2026-04-15T15:59:45Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=200.1 files_done=64 resolved=694 errors=3767 current=runtime/Go/antlr/interval_set.go
+[2026-04-15T16:02:25Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=202.8 files_done=65 resolved=736 errors=3817 current=runtime/Go/antlr/v4/diagnostic_error_listener.go
+[2026-04-15T16:03:46Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=204.2 files_done=66 resolved=738 errors=3843 current=runtime/Go/antlr/dfa_serializer.go
+[2026-04-15T16:04:51Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=205.2 files_done=67 resolved=748 errors=3863 current=runtime/Go/antlr/atn_config.go
+[2026-04-15T16:08:06Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=208.5 files_done=68 resolved=750 errors=3923 current=runtime/Go/antlr/v4/input_stream.go
+[2026-04-15T16:09:14Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=209.6 files_done=70 resolved=759 errors=3944 current=runtime/Go/antlr/token.go
+[2026-04-15T16:10:26Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=210.8 files_done=71 resolved=761 errors=3966 current=runtime/Go/antlr/v4/jcollect.go
+[2026-04-15T16:11:08Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=211.5 files_done=72 resolved=778 errors=3979 current=runtime/Go/antlr/lexer_action.go
+[2026-04-15T16:14:01Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=214.4 files_done=73 resolved=789 errors=4032 current=runtime/Go/antlr/v4/atn.go
+[2026-04-15T16:15:35Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=216.0 files_done=74 resolved=797 errors=4061 current=runtime/Go/antlr/v4/common_token_factory.go
+[2026-04-15T16:18:15Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=218.6 files_done=76 resolved=797 errors=4110 current=runtime/Go/antlr/lexer_action_executor.go
+[2026-04-15T16:19:06Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=219.5 files_done=77 resolved=806 errors=4126 current=runtime/Go/antlr/v4/file_stream.go
+[2026-04-15T16:19:44Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=220.1 files_done=79 resolved=810 errors=4138 current=runtime/Go/antlr/testing_assert_test.go
+[2026-04-15T16:20:39Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=221.0 files_done=80 resolved=811 errors=4155 current=runtime/Go/antlr/parser_rule_context.go
+[2026-04-15T16:22:27Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=222.8 files_done=81 resolved=834 errors=4189 current=runtime/Go/antlr/error_listener.go
+[2026-04-15T16:23:18Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=223.7 files_done=83 resolved=841 errors=4205 current=runtime/Go/antlr/v4/atn_simulator.go
+[2026-04-15T16:24:06Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=224.5 files_done=88 resolved=851 errors=4220 current=runtime/Go/antlr/v4/testing_util_test.go
+[2026-04-15T16:36:42Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=237.1 files_done=92 resolved=887 errors=4446 current=tool/src/org/antlr/v4/tool/BuildDependencyGenerator.java
+[2026-04-15T16:39:50Z] [iter=3] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=226 new_files_this_iter=92 mem_mb=1712 MB
+[2026-04-15T16:39:50Z] [iter=3] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/d23f010a3642a650076caea5a03b586cba37d7a0.nq.gz triples=102532
+[2026-04-15T16:39:53Z] [iter=3] Checkpoint written, exiting with code 7
+[2026-04-15T16:39:53Z] [iter=3] PHASE END: enrich (checkpointed) elapsed_s=14414 elapsed_min=240.2 files_completed=226
