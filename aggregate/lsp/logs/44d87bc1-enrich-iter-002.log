@@ -1,0 +1,64 @@
+[2026-04-16T17:26:59Z] === ENRICH ITERATION 2 START | repo=antlr/antlr4 sha=44d87bc1 ===
+[2026-04-16T17:26:59Z] [iter=2] PHASE START: enrich repo=antlr/antlr4 sha=44d87bc1 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/44d87bc1-enrich-iter-002.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/44d87bc1d130c88aa452894aa5f7e2f710f68253.nq.gz
+[2026-04-16T17:26:59Z] [iter=2] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-16T17:28:14Z] [iter=2] AST store loaded triples=7456134 load_secs=72 mem_mb=1069 MB
+[2026-04-16T17:28:14Z] [iter=2] Step 2: Finding LSP targets mem_mb=1069 MB
+[2026-04-16T17:28:40Z] [iter=2] LSP targets found call_sites=45453 imports=6428 extends=1157 implements=0 secs=26
+[2026-04-16T17:28:42Z] [iter=2] Loaded checkpoint partial graph triples=48811
+[2026-04-16T17:29:06Z] [iter=2] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1069 MB
+[2026-04-16T17:29:49Z] [iter=2] Position index built positions=505368 nodes_with_types=613235 secs=43 mem_mb=1513 MB
+[2026-04-16T17:29:49Z] [iter=2] Step 3: Starting LSP resolution mem_mb=1513 MB already_completed_types=[] already_completed_files=48
+[2026-04-16T17:29:49Z] [iter=2] Resolving target type target_type=call_site count=45453
+[2026-04-16T17:30:06Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=3.1 files_done=0 resolved=0 errors=0 current=runtime/Java/src/org/antlr/v4/runtime/atn/ParserATNSimulator.java
+[2026-04-16T17:43:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=16.4 files_done=1 resolved=31 errors=265 current=tool/src/org/antlr/v4/unicode/UnicodeDataTemplateController.java
+[2026-04-16T17:52:45Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=25.8 files_done=2 resolved=47 errors=454 current=runtime/Java/src/org/antlr/v4/runtime/DefaultErrorStrategy.java
+[2026-04-16T17:59:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=32.6 files_done=3 resolved=48 errors=593 current=tool/src/org/antlr/v4/gui/TreeViewer.java
+[2026-04-16T18:10:42Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=43.7 files_done=4 resolved=79 errors=817 current=tool/src/org/antlr/v4/semantics/BasicSemanticChecks.java
+[2026-04-16T18:19:46Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=52.8 files_done=5 resolved=87 errors=1001 current=tool/src/org/antlr/v4/analysis/LeftRecursiveRuleAnalyzer.java
+[2026-04-16T18:28:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=61.4 files_done=6 resolved=87 errors=1175 current=runtime/Java/src/org/antlr/v4/runtime/Recognizer.java
+[2026-04-16T18:29:57Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=63.0 files_done=7 resolved=90 errors=1206 current=tool/src/org/antlr/v4/gui/PostScriptDocument.java
+[2026-04-16T18:32:25Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=65.4 files_done=8 resolved=96 errors=1256 current=tool/src/org/antlr/v4/codegen/model/LeftRecursiveRuleFunction.java
+[2026-04-16T18:33:07Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=66.1 files_done=9 resolved=96 errors=1270 current=runtime/Java/src/org/antlr/v4/runtime/ANTLRInputStream.java
+[2026-04-16T18:51:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=84.7 files_done=11 resolved=192 errors=1644 current=tool/src/org/antlr/v4/codegen/model/InvokeRule.java
+[2026-04-16T18:53:01Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=86.0 files_done=12 resolved=192 errors=1671 current=runtime-testsuite/test/org/antlr/v4/test/runtime/csharp/BaseCSharpTest.java
+[2026-04-16T18:58:20Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=91.3 files_done=13 resolved=220 errors=1778 current=tool/src/org/antlr/v4/gui/TestRig.java
+[2026-04-16T19:00:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=93.6 files_done=14 resolved=236 errors=1824 current=runtime/Java/src/org/antlr/v4/runtime/atn/ATNDeserializer.java
+[2026-04-16T19:05:37Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=98.6 files_done=15 resolved=243 errors=1925 current=tool-testsuite/test/org/antlr/v4/test/tool/TestATNSerialization.java
+[2026-04-16T19:11:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=104.7 files_done=16 resolved=298 errors=2048 current=runtime/Java/src/org/antlr/v4/runtime/atn/ATNSerializer.java
+[2026-04-16T19:17:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=110.1 files_done=17 resolved=300 errors=2156 current=runtime/Java/src/org/antlr/v4/runtime/misc/Interval.java
+[2026-04-16T19:31:16Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=124.3 files_done=19 resolved=318 errors=2444 current=tool/src/org/antlr/v4/codegen/OutputModelController.java
+[2026-04-16T19:38:22Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=131.4 files_done=20 resolved=318 errors=2587 current=runtime/Java/src/org/antlr/v4/runtime/CodePointCharStream.java
+[2026-04-16T19:39:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=132.4 files_done=21 resolved=327 errors=2605 current=tool/src/org/antlr/v4/codegen/model/PlusBlock.java
+[2026-04-16T19:47:40Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=140.7 files_done=24 resolved=398 errors=2772 current=runtime/Java/src/org/antlr/v4/runtime/atn/ATNSimulator.java
+[2026-04-16T19:50:02Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=143.0 files_done=27 resolved=400 errors=2820 current=tool/src/org/antlr/v4/codegen/model/ElementFrequenciesVisitor.java
+[2026-04-16T19:56:13Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=149.2 files_done=28 resolved=403 errors=2946 current=runtime-testsuite/test/org/antlr/v4/test/runtime/python3/TestParseTrees.java
+[2026-04-16T20:00:18Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=153.3 files_done=30 resolved=403 errors=3028 current=tool-testsuite/test/org/antlr/v4/test/tool/JavaUnicodeInputStream.java
+[2026-04-16T20:03:35Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=156.6 files_done=31 resolved=404 errors=3094 current=tool/src/org/antlr/v4/semantics/SemanticPipeline.java
+[2026-04-16T20:07:54Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=160.9 files_done=32 resolved=404 errors=3181 current=tool/src/org/antlr/v4/codegen/model/RuleFunction.java
+[2026-04-16T20:12:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=165.4 files_done=33 resolved=404 errors=3272 current=runtime/Java/src/org/antlr/v4/runtime/atn/LexerATNSimulator.java
+[2026-04-16T20:16:41Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=169.7 files_done=34 resolved=424 errors=3358 current=tool/src/org/antlr/v4/tool/ANTLRMessage.java
+[2026-04-16T20:17:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=170.4 files_done=35 resolved=425 errors=3373 current=tool/src/org/antlr/v4/parse/TokenVocabParser.java
+[2026-04-16T20:18:58Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=172.0 files_done=36 resolved=428 errors=3404 current=runtime/Java/src/org/antlr/v4/runtime/CodePointBuffer.java
+[2026-04-16T20:24:38Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=177.6 files_done=37 resolved=446 errors=3519 current=tool-testsuite/test/org/antlr/v4/test/tool/TestUtils.java
+[2026-04-16T20:26:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=179.6 files_done=38 resolved=467 errors=3558 current=runtime-testsuite/test/org/antlr/v4/test/runtime/java/api/TestVisitors.java
+[2026-04-16T20:28:32Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=181.5 files_done=39 resolved=480 errors=3598 current=tool/src/org/antlr/v4/codegen/model/decl/StructDecl.java
+[2026-04-16T20:29:43Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=182.7 files_done=40 resolved=480 errors=3622 current=tool-testsuite/test/org/antlr/v4/test/tool/TestATNParserPrediction.java
+[2026-04-16T20:33:24Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=186.4 files_done=41 resolved=499 errors=3696 current=runtime-testsuite/test/org/antlr/v4/test/runtime/javascript/BaseNodeTest.java
+[2026-04-16T20:37:49Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=190.8 files_done=42 resolved=511 errors=3785 current=runtime/Java/src/org/antlr/v4/runtime/misc/IntervalSet.java
+[2026-04-16T20:44:56Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=197.9 files_done=43 resolved=511 errors=3929 current=tool-testsuite/test/org/antlr/v4/test/tool/TestATNInterpreter.java
+[2026-04-16T20:49:10Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=202.2 files_done=44 resolved=520 errors=4015 current=runtime/Java/src/org/antlr/v4/runtime/tree/Trees.java
+[2026-04-16T20:52:36Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=205.6 files_done=45 resolved=523 errors=4085 current=runtime-testsuite/test/org/antlr/v4/test/runtime/java/TestListeners.java
+[2026-04-16T20:57:11Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=210.2 files_done=48 resolved=530 errors=4177 current=tool/src/org/antlr/v4/semantics/AttributeChecks.java
+[2026-04-16T21:01:40Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=214.7 files_done=49 resolved=530 errors=4267 current=tool-testsuite/test/org/antlr/v4/test/tool/TestAttributeChecks.java
+[2026-04-16T21:02:26Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=215.4 files_done=50 resolved=530 errors=4282 current=tool-testsuite/test/org/antlr/v4/test/tool/ATNDescriber.java
+[2026-04-16T21:05:30Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=218.5 files_done=51 resolved=538 errors=4344 current=runtime/Java/src/org/antlr/v4/runtime/ParserInterpreter.java
+[2026-04-16T21:10:15Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=223.3 files_done=52 resolved=539 errors=4440 current=runtime-testsuite/test/org/antlr/v4/test/runtime/cpp/TestLexerExec.java
+[2026-04-16T21:11:51Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=224.9 files_done=54 resolved=542 errors=4472 current=tool-testsuite/test/org/antlr/v4/test/tool/TestParserInterpreter.java
+[2026-04-16T21:15:56Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=228.9 files_done=55 resolved=557 errors=4554 current=tool/src/org/antlr/v4/tool/ast/GrammarAST.java
+[2026-04-16T21:17:52Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=230.9 files_done=56 resolved=575 errors=4593 current=runtime/Java/src/org/antlr/v4/runtime/LexerNoViableAltException.java
+[2026-04-16T21:23:23Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=236.4 files_done=58 resolved=577 errors=4704 current=runtime/Java/src/org/antlr/v4/runtime/tree/ErrorNodeImpl.java
+[2026-04-16T21:25:05Z] [iter=2] HEARTBEAT target_type=call_site elapsed_min=238.1 files_done=60 resolved=586 errors=4738 current=tool/src/org/antlr/v4/tool/GrammarTransformPipeline.java
+[2026-04-16T21:27:19Z] [iter=2] CHECKPOINT TRIGGERED elapsed_min=240.3 files_completed=108 new_files_this_iter=60 mem_mb=1524 MB
+[2026-04-16T21:27:19Z] [iter=2] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/44d87bc1d130c88aa452894aa5f7e2f710f68253.nq.gz triples=75170
+[2026-04-16T21:27:20Z] [iter=2] Checkpoint written, exiting with code 7
+[2026-04-16T21:27:20Z] [iter=2] PHASE END: enrich (checkpointed) elapsed_s=14419 elapsed_min=240.3 files_completed=108
