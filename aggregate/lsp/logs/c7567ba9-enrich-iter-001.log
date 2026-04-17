@@ -1,0 +1,38 @@
+[2026-04-17T08:43:42Z] === ENRICH ITERATION 1 START | repo=antlr/antlr4 sha=c7567ba9 ===
+[2026-04-17T08:43:42Z] [iter=1] PHASE START: enrich repo=antlr/antlr4 sha=c7567ba9 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/c7567ba9-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/c7567ba9bb40c361dda60e60e2bc932a16d2adf8.nq.gz
+[2026-04-17T08:43:42Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-17T08:45:00Z] [iter=1] AST store loaded triples=7455915 load_secs=75 mem_mb=1046 MB
+[2026-04-17T08:45:00Z] [iter=1] Step 2: Finding LSP targets mem_mb=1046 MB
+[2026-04-17T08:45:25Z] [iter=1] LSP targets found call_sites=45450 imports=6428 extends=1157 implements=0 secs=25
+[2026-04-17T08:45:49Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1046 MB
+[2026-04-17T08:46:37Z] [iter=1] Position index built positions=505350 nodes_with_types=613214 secs=48 mem_mb=1511 MB
+[2026-04-17T08:46:37Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1511 MB already_completed_types=[] already_completed_files=0
+[2026-04-17T08:46:37Z] [iter=1] Resolving target type target_type=call_site count=45450
+[2026-04-17T08:46:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.9 files_done=0 resolved=0 errors=0 current=runtime/Python2/src/antlr4/Recognizer.py
+[2026-04-17T08:47:39Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.0 files_done=1 resolved=10 errors=21 current=runtime/Python2/src/antlr4/atn/ParserATNSimulator.py
+[2026-04-17T08:57:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=2 resolved=147 errors=232 current=runtime/Python3/tests/parser/cparser.py
+[2026-04-17T11:15:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=151.5 files_done=3 resolved=574 errors=3056 current=runtime/Python2/tests/TestTokenStreamRewriter.py
+[2026-04-17T11:27:35Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=163.9 files_done=4 resolved=575 errors=3311 current=runtime/Python3/tests/TestIntervalSet.py
+[2026-04-17T11:30:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=166.8 files_done=5 resolved=600 errors=3372 current=runtime/Python3/src/antlr4/Recognizer.py
+[2026-04-17T11:31:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=167.9 files_done=6 resolved=611 errors=3393 current=runtime/Python3/tests/TestTokenStreamRewriter.py
+[2026-04-17T11:43:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=180.3 files_done=7 resolved=617 errors=3648 current=runtime/Python3/src/antlr4/atn/ParserATNSimulator.py
+[2026-04-17T11:54:13Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=190.5 files_done=8 resolved=756 errors=3859 current=runtime/Python2/src/antlr4/error/DiagnosticErrorListener.py
+[2026-04-17T11:55:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=192.2 files_done=9 resolved=762 errors=3894 current=runtime/Python2/src/antlr4/TokenStreamRewriter.py
+[2026-04-17T11:58:03Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=194.4 files_done=10 resolved=811 errors=3938 current=runtime/Python2/src/antlr4/xpath/XPath.py
+[2026-04-17T11:59:46Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=196.1 files_done=11 resolved=848 errors=3973 current=runtime/Python3/src/antlr4/PredictionContext.py
+[2026-04-17T12:02:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=199.1 files_done=12 resolved=909 errors=4033 current=runtime/Python2/src/antlr4/dfa/DFASerializer.py
+[2026-04-17T12:03:22Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=199.7 files_done=13 resolved=917 errors=4045 current=runtime/Python3/src/antlr4/Parser.py
+[2026-04-17T12:07:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=204.2 files_done=14 resolved=944 errors=4134 current=runtime/Python2/src/antlr4/xpath/XPathLexer.py
+[2026-04-17T12:15:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=211.5 files_done=16 resolved=1022 errors=4278 current=runtime/Python2/src/antlr4/BufferedTokenStream.py
+[2026-04-17T12:16:59Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=213.3 files_done=17 resolved=1052 errors=4315 current=runtime/Python3/src/antlr4/_pygrun.py
+[2026-04-17T12:18:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=214.5 files_done=18 resolved=1098 errors=4340 current=runtime/Python2/src/antlr4/dfa/DFA.py
+[2026-04-17T12:18:44Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=215.0 files_done=19 resolved=1105 errors=4351 current=runtime/Python2/src/antlr4/IntervalSet.py
+[2026-04-17T12:24:54Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=221.2 files_done=20 resolved=1125 errors=4478 current=runtime/Python3/tests/ctest.py
+[2026-04-17T12:28:38Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=224.9 files_done=22 resolved=1187 errors=4555 current=runtime/Python3/src/antlr4/Token.py
+[2026-04-17T12:29:51Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=226.1 files_done=23 resolved=1197 errors=4580 current=runtime/Python2/src/antlr4/tree/ParseTreePatternMatcher.py
+[2026-04-17T12:33:23Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=229.7 files_done=24 resolved=1253 errors=4651 current=runtime/Python2/src/antlr4/LL1Analyzer.py
+[2026-04-17T12:34:48Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=231.1 files_done=25 resolved=1268 errors=4680 current=runtime/Python3/tests/parser/clexer.py
+[2026-04-17T12:43:54Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=25 new_files_this_iter=25 mem_mb=1554 MB
+[2026-04-17T12:43:54Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/c7567ba9bb40c361dda60e60e2bc932a16d2adf8.nq.gz triples=49221
+[2026-04-17T12:43:55Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-17T12:43:55Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14412 elapsed_min=240.2 files_completed=25
