@@ -1,0 +1,43 @@
+{
+  "commit_sha": "bf0bbff4bff0c7fb33704ef7c4699314715efb2c",
+  "completed_files": [
+    "runtime/Python2/src/antlr4/FileStream.py",
+    "runtime/Python2/src/antlr4/ParserInterpreter.py",
+    "runtime/Python2/src/antlr4/atn/SemanticContext.py",
+    "runtime/Python2/src/antlr4/xpath/XPath.py",
+    "runtime/Python2/tests/TestTokenStreamRewriter.py",
+    "runtime/Python3/src/antlr4/Lexer.py",
+    "runtime/Python3/src/antlr4/PredictionContext.py",
+    "runtime/Python3/src/antlr4/TokenStreamRewriter.py",
+    "runtime/Python3/src/antlr4/atn/ATNDeserializer.py",
+    "runtime/Python3/src/antlr4/atn/LexerAction.py",
+    "runtime/Python3/src/antlr4/dfa/DFA.py",
+    "runtime/Python3/src/antlr4/dfa/DFAState.py",
+    "runtime/Python3/tests/TestTokenStreamRewriter.py",
+    "runtime/Python3/tests/expr/ExprParser.py",
+    "runtime/Python3/tests/parser/clexer.py",
+    "runtime/Python3/tests/parser/cparser.py",
+    "runtime/Swift/boot.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/antlr/antlr4/lsp/bf0bbff4bff0c7fb33704ef7c4699314715efb2c",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/bf0bbff4bff0c7fb33704ef7c4699314715efb2c.nq.gz",
+    "call_sites": 47732,
+    "import_statements": 6025,
+    "call_targets_resolved": 934,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 4602,
+    "extends_clauses": 1018,
+    "implements_clauses": 2,
+    "import_modules_denormalized": 10561,
+    "import_symbols_denormalized": 764,
+    "extends_class_denormalized": 603,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14407
+}

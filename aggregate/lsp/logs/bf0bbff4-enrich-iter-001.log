@@ -1,0 +1,30 @@
+[2026-04-18T11:29:29Z] === ENRICH ITERATION 1 START | repo=antlr/antlr4 sha=bf0bbff4 ===
+[2026-04-18T11:29:29Z] [iter=1] PHASE START: enrich repo=antlr/antlr4 sha=bf0bbff4 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/bf0bbff4-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/bf0bbff4bff0c7fb33704ef7c4699314715efb2c.nq.gz
+[2026-04-18T11:29:29Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-18T11:30:48Z] [iter=1] AST store loaded triples=7850094 load_secs=75 mem_mb=1068 MB
+[2026-04-18T11:30:48Z] [iter=1] Step 2: Finding LSP targets mem_mb=1068 MB
+[2026-04-18T11:31:14Z] [iter=1] LSP targets found call_sites=47732 imports=6025 extends=1018 implements=2 secs=26
+[2026-04-18T11:31:37Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1068 MB
+[2026-04-18T11:32:28Z] [iter=1] Position index built positions=531308 nodes_with_types=643148 secs=51 mem_mb=1576 MB
+[2026-04-18T11:32:28Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1576 MB already_completed_types=[] already_completed_files=0
+[2026-04-18T11:32:28Z] [iter=1] Resolving target type target_type=call_site count=47732
+[2026-04-18T11:32:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=0 resolved=0 errors=0 current=runtime/Python2/src/antlr4/xpath/XPath.py
+[2026-04-18T11:34:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=1 resolved=37 errors=35 current=runtime/Python3/tests/parser/clexer.py
+[2026-04-18T12:04:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=34.8 files_done=2 resolved=41 errors=624 current=runtime/Python3/src/antlr4/TokenStreamRewriter.py
+[2026-04-18T12:06:31Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.0 files_done=3 resolved=91 errors=668 current=runtime/Python3/src/antlr4/dfa/DFA.py
+[2026-04-18T12:07:05Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=37.6 files_done=4 resolved=100 errors=679 current=runtime/Python3/src/antlr4/atn/LexerAction.py
+[2026-04-18T12:07:36Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=38.1 files_done=5 resolved=135 errors=689 current=runtime/Python3/src/antlr4/Lexer.py
+[2026-04-18T12:09:27Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=40.0 files_done=6 resolved=145 errors=725 current=runtime/Python3/tests/parser/cparser.py
+[2026-04-18T14:35:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=185.7 files_done=7 resolved=572 errors=3549 current=runtime/Python3/src/antlr4/atn/ATNDeserializer.py
+[2026-04-18T14:42:00Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=192.5 files_done=8 resolved=645 errors=3681 current=runtime/Python3/tests/TestTokenStreamRewriter.py
+[2026-04-18T14:55:10Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=205.7 files_done=9 resolved=651 errors=3936 current=runtime/Python2/src/antlr4/atn/SemanticContext.py
+[2026-04-18T14:56:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=207.3 files_done=10 resolved=682 errors=3968 current=runtime/Python3/src/antlr4/dfa/DFAState.py
+[2026-04-18T15:10:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=220.9 files_done=12 resolved=693 errors=4231 current=runtime/Swift/boot.py
+[2026-04-18T15:11:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=222.0 files_done=13 resolved=731 errors=4252 current=runtime/Python3/src/antlr4/PredictionContext.py
+[2026-04-18T15:14:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=225.1 files_done=14 resolved=808 errors=4312 current=runtime/Python2/src/antlr4/ParserInterpreter.py
+[2026-04-18T15:16:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=227.1 files_done=15 resolved=819 errors=4350 current=runtime/Python2/src/antlr4/FileStream.py
+[2026-04-18T15:26:52Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=237.4 files_done=17 resolved=898 errors=4549 current=runtime/Python2/src/antlr4/atn/ParserATNSimulator.py
+[2026-04-18T15:29:37Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.1 files_completed=17 new_files_this_iter=17 mem_mb=1606 MB
+[2026-04-18T15:29:37Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/bf0bbff4bff0c7fb33704ef7c4699314715efb2c.nq.gz triples=43744
+[2026-04-18T15:29:38Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-18T15:29:38Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14408 elapsed_min=240.1 files_completed=17
