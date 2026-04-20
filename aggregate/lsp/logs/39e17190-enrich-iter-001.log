@@ -1,0 +1,27 @@
+[2026-04-20T13:41:07Z] === ENRICH ITERATION 1 START | repo=antlr/antlr4 sha=39e17190 ===
+[2026-04-20T13:41:07Z] [iter=1] PHASE START: enrich repo=antlr/antlr4 sha=39e17190 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/39e17190-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/39e1719064f0b842884fa6afbe6848f027598b8e.nq.gz
+[2026-04-20T13:41:07Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=77 MB
+[2026-04-20T13:42:27Z] [iter=1] AST store loaded triples=7788804 load_secs=77 mem_mb=1016 MB
+[2026-04-20T13:42:27Z] [iter=1] Step 2: Finding LSP targets mem_mb=1016 MB
+[2026-04-20T13:42:56Z] [iter=1] LSP targets found call_sites=47460 imports=5856 extends=992 implements=0 secs=29
+[2026-04-20T13:43:22Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1016 MB
+[2026-04-20T13:44:17Z] [iter=1] Position index built positions=526915 nodes_with_types=638098 secs=54 mem_mb=1513 MB
+[2026-04-20T13:44:17Z] [iter=1] Step 3: Starting LSP resolution mem_mb=1513 MB already_completed_types=[] already_completed_files=0
+[2026-04-20T13:44:17Z] [iter=1] Resolving target type target_type=call_site count=47460
+[2026-04-20T13:44:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.2 files_done=0 resolved=0 errors=47460 current=runtime/Python2/src/antlr4/BufferedTokenStream.py
+[2026-04-20T13:46:16Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.2 files_done=1 resolved=30 errors=47497 current=runtime/Python3/tests/parser/cparser.py
+[2026-04-20T16:15:49Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=154.7 files_done=2 resolved=457 errors=50321 current=runtime/Python3/tests/parser/clexer.py
+[2026-04-20T16:47:08Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=186.0 files_done=3 resolved=461 errors=50910 current=runtime/Python3/tests/expr/ExprParser.py
+[2026-04-20T16:57:30Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=196.4 files_done=4 resolved=535 errors=51106 current=runtime/Python2/src/antlr4/atn/SemanticContext.py
+[2026-04-20T16:59:11Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=198.1 files_done=5 resolved=566 errors=51138 current=runtime/Python3/src/antlr4/atn/ParserATNSimulator.py
+[2026-04-20T17:10:20Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=209.2 files_done=6 resolved=705 errors=51349 current=runtime/Python3/tests/TestTokenStreamRewriter.py
+[2026-04-20T17:23:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=222.7 files_done=7 resolved=711 errors=51604 current=runtime/Python2/src/antlr4/atn/ATN.py
+[2026-04-20T17:24:34Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=223.5 files_done=8 resolved=717 errors=51619 current=runtime/Python3/src/antlr4/xpath/XPathLexer.py
+[2026-04-20T17:25:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=224.0 files_done=9 resolved=723 errors=51629 current=runtime/Python2/src/antlr4/Recognizer.py
+[2026-04-20T17:26:12Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=225.1 files_done=10 resolved=733 errors=51650 current=runtime/Python3/src/antlr4/atn/ATNConfigSet.py
+[2026-04-20T17:27:47Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=226.7 files_done=11 resolved=751 errors=51680 current=runtime/Python2/src/antlr4/xpath/XPath.py
+[2026-04-20T17:29:37Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=228.5 files_done=12 resolved=788 errors=51715 current=runtime/Python2/tests/TestTokenStreamRewriter.py
+[2026-04-20T17:41:17Z] [iter=1] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=12 new_files_this_iter=12 mem_mb=1514 MB
+[2026-04-20T17:41:17Z] [iter=1] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/39e1719064f0b842884fa6afbe6848f027598b8e.nq.gz triples=41626
+[2026-04-20T17:41:18Z] [iter=1] Checkpoint written, exiting with code 7
+[2026-04-20T17:41:18Z] [iter=1] PHASE END: enrich (checkpointed) elapsed_s=14411 elapsed_min=240.2 files_completed=12

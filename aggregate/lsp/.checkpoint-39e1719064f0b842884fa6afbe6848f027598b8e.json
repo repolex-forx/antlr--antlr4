@@ -1,0 +1,38 @@
+{
+  "commit_sha": "39e1719064f0b842884fa6afbe6848f027598b8e",
+  "completed_files": [
+    "runtime/Python2/src/antlr4/BufferedTokenStream.py",
+    "runtime/Python2/src/antlr4/Recognizer.py",
+    "runtime/Python2/src/antlr4/atn/ATN.py",
+    "runtime/Python2/src/antlr4/atn/SemanticContext.py",
+    "runtime/Python2/src/antlr4/xpath/XPath.py",
+    "runtime/Python3/src/antlr4/atn/ATNConfigSet.py",
+    "runtime/Python3/src/antlr4/atn/ParserATNSimulator.py",
+    "runtime/Python3/src/antlr4/xpath/XPathLexer.py",
+    "runtime/Python3/tests/TestTokenStreamRewriter.py",
+    "runtime/Python3/tests/expr/ExprParser.py",
+    "runtime/Python3/tests/parser/clexer.py",
+    "runtime/Python3/tests/parser/cparser.py"
+  ],
+  "completed_types": [],
+  "stats": {
+    "graph_uri": "https://repolex.ai/r/antlr/antlr4/lsp/39e1719064f0b842884fa6afbe6848f027598b8e",
+    "output_path": "/home/runner/work/forx/forx/storage/aggregate/lsp/39e1719064f0b842884fa6afbe6848f027598b8e.nq.gz",
+    "call_sites": 47460,
+    "import_statements": 5856,
+    "call_targets_resolved": 789,
+    "import_targets_resolved": 0,
+    "symbols_exported": 0,
+    "external_resolved": 0,
+    "dataflow_arg_to_param": 0,
+    "dataflow_return_to_call": 0,
+    "errors": 51937,
+    "extends_clauses": 992,
+    "implements_clauses": 0,
+    "import_modules_denormalized": 10396,
+    "import_symbols_denormalized": 770,
+    "extends_class_denormalized": 582,
+    "implements_interface_denormalized": 0
+  },
+  "elapsed_seconds": 14410
+}
