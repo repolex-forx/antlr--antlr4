@@ -1,0 +1,87 @@
+[2026-04-22T12:43:47Z] === ENRICH ITERATION 6 START | repo=antlr/antlr4 sha=cd8f367c ===
+[2026-04-22T12:43:47Z] [iter=6] PHASE START: enrich repo=antlr/antlr4 sha=cd8f367c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/cd8f367c-enrich-iter-006.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/cd8f367ca010eb59defadf3df622793bc3a8afe2.nq.gz
+[2026-04-22T12:43:47Z] [iter=6] Step 1: Loading AST into disk-backed store mem_mb=76 MB
+[2026-04-22T12:45:03Z] [iter=6] AST store loaded triples=7456343 load_secs=73 mem_mb=1063 MB
+[2026-04-22T12:45:03Z] [iter=6] Step 2: Finding LSP targets mem_mb=1063 MB
+[2026-04-22T12:45:30Z] [iter=6] LSP targets found call_sites=45455 imports=6428 extends=1157 implements=0 secs=27
+[2026-04-22T12:45:37Z] [iter=6] Loaded checkpoint partial graph triples=160771
+[2026-04-22T12:46:02Z] [iter=6] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1063 MB
+[2026-04-22T12:46:51Z] [iter=6] Position index built positions=505381 nodes_with_types=613248 secs=49 mem_mb=1758 MB
+[2026-04-22T12:46:51Z] [iter=6] Step 3: Starting LSP resolution mem_mb=1758 MB already_completed_types=[] already_completed_files=847
+[2026-04-22T12:46:51Z] [iter=6] Resolving target type target_type=call_site count=45455
+[2026-04-22T12:47:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=3.5 files_done=0 resolved=0 errors=45455 current=runtime/Python2/src/antlr4/error/ErrorListener.py
+[2026-04-22T12:48:00Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=2 resolved=36 errors=45470 current=runtime/Python3/src/antlr4/InputStream.py
+[2026-04-22T12:49:22Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=5.6 files_done=4 resolved=47 errors=45497 current=runtime/Python3/src/antlr4/atn/PredictionMode.py
+[2026-04-22T12:50:17Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=6.5 files_done=5 resolved=74 errors=45515 current=runtime/Python3/src/antlr4/RuleContext.py
+[2026-04-22T12:51:09Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=7.4 files_done=6 resolved=81 errors=45532 current=runtime/Python2/src/antlr4/atn/LexerActionExecutor.py
+[2026-04-22T12:51:40Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=7.9 files_done=7 resolved=90 errors=45540 current=runtime/Python3/src/antlr4/error/ErrorListener.py
+[2026-04-22T12:52:31Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=8.7 files_done=9 resolved=128 errors=45557 current=runtime/Python3/src/antlr4/xpath/XPathLexer.py
+[2026-04-22T12:53:02Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=9.2 files_done=10 resolved=134 errors=45567 current=runtime/Python2/src/antlr4/ListTokenSource.py
+[2026-04-22T12:54:03Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=10.3 files_done=12 resolved=167 errors=45587 current=runtime/Python3/src/antlr4/ListTokenSource.py
+[2026-04-22T12:55:12Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=11.4 files_done=14 resolved=202 errors=45610 current=runtime/Python3/src/antlr4/tree/TokenTagToken.py
+[2026-04-22T12:56:28Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=12.7 files_done=17 resolved=227 errors=45635 current=runtime/Python2/src/antlr4/atn/ATNDeserializationOptions.py
+[2026-04-22T12:57:07Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=13.3 files_done=19 resolved=243 errors=45648 current=runtime/Python2/src/antlr4/CodePoints.py
+[2026-04-22T12:58:08Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=14.3 files_done=21 resolved=251 errors=45668 current=runtime/Python2/src/antlr4/CommonTokenFactory.py
+[2026-04-22T12:59:02Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=15.3 files_done=23 resolved=265 errors=45686 current=runtime/Python3/src/antlr4/CommonTokenFactory.py
+[2026-04-22T13:00:06Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=16.3 files_done=25 resolved=294 errors=45707 current=runtime/Python3/tests/TestInputStream.py
+[2026-04-22T13:00:46Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=17.0 files_done=26 resolved=295 errors=45720 current=runtime/Python3/src/antlr4/atn/ATNState.py
+[2026-04-22T13:01:22Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=17.6 files_done=29 resolved=339 errors=45732 current=scripts/parse-extended-pictographic/parse.py
+[2026-04-22T13:02:05Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=18.3 files_done=33 resolved=356 errors=45746 current=runtime/Python3/src/antlr4/CommonTokenStream.py
+[2026-04-22T13:02:48Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=19.0 files_done=36 resolved=368 errors=45760 current=runtime/Python3/src/antlr4/Utils.py
+[2026-04-22T13:03:21Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=19.6 files_done=37 resolved=371 errors=45771 current=runtime/Python3/tests/TestRecognizer.py
+[2026-04-22T13:03:51Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=20.1 files_done=40 resolved=376 errors=45781 current=runtime/Python3/tests/expr/ExprLexer.py
+[2026-04-22T13:04:22Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=20.6 files_done=44 resolved=385 errors=45791 current=runtime/Python3/setup.py
+[2026-04-22T13:06:54Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=23.1 files_done=158 resolved=392 errors=45831 current=runtime/JavaScript/src/antlr4/error/DefaultErrorStrategy.js
+[2026-04-22T13:11:30Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=27.7 files_done=159 resolved=394 errors=45922 current=runtime/JavaScript/src/antlr4/context/PredictionContextUtils.js
+[2026-04-22T13:14:06Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=30.3 files_done=160 resolved=394 errors=45973 current=runtime/JavaScript/src/antlr4/Parser.js
+[2026-04-22T13:18:27Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=34.7 files_done=161 resolved=395 errors=46059 current=runtime/JavaScript/src/antlr4/error/DiagnosticErrorListener.js
+[2026-04-22T13:19:18Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=35.5 files_done=162 resolved=395 errors=46076 current=runtime/JavaScript/src/antlr4/context/PredictionContext.js
+[2026-04-22T13:20:13Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=36.4 files_done=164 resolved=402 errors=46094 current=runtime/JavaScript/src/antlr4/misc/Interval.js
+[2026-04-22T13:30:24Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=46.6 files_done=167 resolved=443 errors=46295 current=runtime/JavaScript/src/antlr4/context/ArrayPredictionContext.js
+[2026-04-22T13:32:41Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=48.9 files_done=169 resolved=443 errors=46340 current=runtime/JavaScript/src/antlr4/tree/Trees.js
+[2026-04-22T13:34:21Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=50.6 files_done=170 resolved=443 errors=46373 current=runtime/JavaScript/src/antlr4/misc/BitSet.js
+[2026-04-22T13:35:03Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=51.3 files_done=172 resolved=450 errors=46387 current=runtime/JavaScript/src/antlr4/atn/LexerATNConfig.js
+[2026-04-22T13:40:54Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=57.1 files_done=174 resolved=450 errors=46502 current=runtime/JavaScript/src/antlr4/atn/SemanticContext.js
+[2026-04-22T13:43:21Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=59.6 files_done=175 resolved=452 errors=46550 current=runtime/JavaScript/src/antlr4/Recognizer.js
+[2026-04-22T13:43:57Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=60.2 files_done=176 resolved=455 errors=46562 current=runtime/JavaScript/src/antlr4/utils/DoubleDict.js
+[2026-04-22T13:44:27Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=60.7 files_done=179 resolved=455 errors=46572 current=runtime/JavaScript/src/antlr4/atn/LexerATNSimulator.js
+[2026-04-22T13:47:45Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=64.0 files_done=180 resolved=468 errors=46637 current=runtime/JavaScript/src/antlr4/BufferedTokenStream.js
+[2026-04-22T13:49:34Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=65.8 files_done=181 resolved=468 errors=46673 current=runtime/JavaScript/src/antlr4/polyfills/fromcodepoint.js
+[2026-04-22T13:50:05Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=66.3 files_done=183 resolved=471 errors=46683 current=runtime/JavaScript/src/antlr4/atn/PredictionMode.js
+[2026-04-22T13:51:21Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=67.6 files_done=184 resolved=471 errors=46708 current=runtime/JavaScript/src/antlr4/atn/ATNConfigSet.js
+[2026-04-22T13:52:19Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=68.5 files_done=185 resolved=472 errors=46727 current=runtime/JavaScript/src/antlr4/context/RuleContext.js
+[2026-04-22T13:52:49Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=69.0 files_done=187 resolved=472 errors=46737 current=runtime/JavaScript/src/antlr4/CharStreams.js
+[2026-04-22T13:53:20Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=69.5 files_done=190 resolved=475 errors=46747 current=runtime/JavaScript/src/antlr4/dfa/DFASerializer.js
+[2026-04-22T13:53:56Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=70.1 files_done=191 resolved=476 errors=46759 current=runtime/JavaScript/src/antlr4/action/LexerSkipAction.js
+[2026-04-22T13:56:03Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=72.3 files_done=194 resolved=479 errors=46801 current=runtime/JavaScript/src/antlr4/InputStream.js
+[2026-04-22T13:56:46Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=73.0 files_done=196 resolved=481 errors=46815 current=runtime/JavaScript/src/antlr4/transition/RangeTransition.js
+[2026-04-22T13:57:25Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=73.6 files_done=198 resolved=490 errors=46828 current=runtime/JavaScript/src/antlr4/context/ParserRuleContext.js
+[2026-04-22T13:57:57Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=74.2 files_done=200 resolved=490 errors=46838 current=runtime/JavaScript/src/antlr4/atn/PredictionContextCache.js
+[2026-04-22T13:59:37Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=75.8 files_done=202 resolved=490 errors=46871 current=runtime/JavaScript/src/antlr4/misc/HashCode.js
+[2026-04-22T14:00:44Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=76.9 files_done=204 resolved=492 errors=46893 current=runtime/JavaScript/src/antlr4/tree/ParseTreeVisitor.js
+[2026-04-22T14:01:33Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=77.8 files_done=207 resolved=493 errors=46909 current=runtime/JavaScript/src/antlr4/context/InterpreterRuleContext.js
+[2026-04-22T14:02:03Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=78.3 files_done=209 resolved=493 errors=46919 current=runtime/JavaScript/src/antlr4/atn/ATNConfig.js
+[2026-04-22T14:02:42Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=78.9 files_done=210 resolved=493 errors=46932 current=runtime/JavaScript/src/antlr4/error/BailErrorStrategy.js
+[2026-04-22T14:03:13Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=79.4 files_done=215 resolved=497 errors=46942 current=runtime/JavaScript/src/antlr4/atn/OrderedATNConfigSet.js
+[2026-04-22T14:03:43Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=79.9 files_done=218 resolved=497 errors=46952 current=runtime/JavaScript/src/antlr4/error/InputMismatchException.js
+[2026-04-22T14:04:35Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=80.8 files_done=220 resolved=497 errors=46969 current=runtime/JavaScript/src/antlr4/state/DecisionState.js
+[2026-04-22T14:05:09Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=81.4 files_done=224 resolved=497 errors=46980 current=runtime/JavaScript/src/antlr4/CommonToken.js
+[2026-04-22T14:05:45Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=82.0 files_done=227 resolved=497 errors=46992 current=runtime/JavaScript/src/antlr4/context/EmptyPredictionContext.js
+[2026-04-22T14:06:19Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=82.5 files_done=235 resolved=499 errors=47003 current=runtime/JavaScript/src/antlr4/transition/NotSetTransition.js
+[2026-04-22T14:06:58Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=83.2 files_done=238 resolved=502 errors=47016 current=runtime/JavaScript/src/antlr4/state/RuleStopState.js
+[2026-04-22T14:07:32Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=83.7 files_done=245 resolved=503 errors=47027 current=runtime/JavaScript/src/antlr4/tree/ErrorNodeImpl.js
+[2026-04-22T14:08:02Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=84.3 files_done=251 resolved=505 errors=47037 current=runtime/JavaScript/src/antlr4/error/ConsoleErrorListener.js
+[2026-04-22T14:08:33Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=84.8 files_done=259 resolved=508 errors=47047 current=runtime/JavaScript/src/antlr4/utils/escapeWhitespace.js
+[2026-04-22T14:09:03Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=85.3 files_done=266 resolved=508 errors=47057 current=runtime/JavaScript/src/antlr4/transition/WildcardTransition.js
+[2026-04-22T14:09:20Z] [iter=6] Target type resolved target_type=call_site resolved=508 errors=47061 secs=4949 mem_mb=1759 MB
+[2026-04-22T14:09:20Z] [iter=6] Resolving target type target_type=import_statement count=6428
+[2026-04-22T14:09:38Z] [iter=6] HEARTBEAT target_type=import_statement elapsed_min=85.8 files_done=166 resolved=0 errors=0 current=runtime/Java/src/org/antlr/v4/runtime/tree/pattern/TokenTagToken.java
+[2026-04-22T14:10:09Z] [iter=6] HEARTBEAT target_type=import_statement elapsed_min=86.4 files_done=341 resolved=227 errors=0 current=runtime/JavaScript/src/antlr4/error/DefaultErrorStrategy.js
+[2026-04-22T14:10:14Z] [iter=6] Target type resolved target_type=import_statement resolved=689 errors=6428 secs=53 mem_mb=1759 MB
+[2026-04-22T14:10:14Z] [iter=6] Resolving target type target_type=extends_clause count=1157
+[2026-04-22T14:10:39Z] [iter=6] HEARTBEAT target_type=extends_clause elapsed_min=86.9 files_done=168 resolved=287 errors=0 current=runtime/JavaScript/src/antlr4/context/ArrayPredictionContext.js
+[2026-04-22T14:10:40Z] [iter=6] Target type resolved target_type=extends_clause resolved=361 errors=0 secs=27 mem_mb=1759 MB
+[2026-04-22T14:11:52Z] [iter=6] Step 5: Writing final enrichment file triples=285829
+[2026-04-22T14:11:59Z] [iter=6] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/cd8f367ca010eb59defadf3df622793bc3a8afe2.nq.gz size_kb=8050
+[2026-04-22T14:11:59Z] [iter=6] Checkpoint cleared (enrichment complete)
+[2026-04-22T14:11:59Z] [iter=6] PHASE END: enrich elapsed_s=5292 elapsed_min=88.2 total_triples=285829
